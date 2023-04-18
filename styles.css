@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  background-color: rgb(104, 137, 188);
+  background-color: rgb(164, 189, 227);
   padding: 10px;
 }
 
@@ -22,7 +22,6 @@ h1 {
   justify-content: center;
   text-align: center;
   font-size: 2.5rem;
-  padding-top: 20px;
 }
 
 .title-game {
@@ -65,12 +64,12 @@ article {
 
 .games-card {
   display: flex;
-  background-color: rgb(113, 109, 109);
+  background-color: rgb(38, 76, 139);
 }
 
 .user-card {
   display: flex;
-  background-color: rgb(219, 219, 214);
+  background-color: rgb(77, 134, 199);
 }
 
 .buttons-container {
