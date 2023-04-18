@@ -11,6 +11,12 @@ body {
   margin: 0;
 }
 
+.showOff {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+}
+
 header {
   background-color: rgb(164, 189, 227);
   padding: 10px;
@@ -59,7 +65,7 @@ h1 {
   display: flex;
   position: relative;
   margin-bottom: 180px;
-  width: 70%;
+  width: 100%;
   height: 29em;
   background-color: rgb(114, 156, 179);
 }
@@ -74,7 +80,7 @@ article {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(38, 76, 139);
+  background-color: rgb(55, 89, 144);
 }
 
 .card-container {
@@ -82,8 +88,9 @@ article {
   width: 12em;
   height: 18em;
   background-color: rgb(247, 247, 249);
-  border-radius: 5%;
+  border-radius: 8%;
   border: 2px solid rgb(0, 0, 0);
+  box-shadow: 5px 5px 15px rgb(16, 16, 16);
 }
 
 .user-card {
@@ -91,12 +98,42 @@ article {
   background-color: rgb(77, 134, 199);
 }
 
+.start-button-container {
+    display: flex;
+  position: relative;
+  bottom: 190px;
+  justify-content: center;
+  padding-top: 25px;
+  margin-left: 45px;
+  align-items: center;
+}
+
+.start {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 20px;
+  font-family: inherit;
+  font-size: 2rem;
+  padding: 15px 35px;
+  color: rgb(224, 214, 214);
+  background-color: rgb(39, 64, 145);
+  border: 3px solid rgb(20, 20, 20);
+  box-shadow: 5px 5px 10px rgb(30, 29, 29);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.start:hover {
+  background-color: rgb(149, 36, 41);
+}
+
 .buttons-container {
   display: flex;
   position: relative;
   bottom: 190px;
   justify-content: center;
-  padding-top: 19px;
+  padding-top: 25px;
   margin-left: 45px;
   align-items: center;
 }
