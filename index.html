@@ -13,7 +13,7 @@
 <body>
   <header>
     <h1>Welcome to <strong class="title-game"> ISDI Game Cards</strong>!</h1>
-    <p class="instructions">The game will draw one card. You have to guess if the next card is <strong
+    <p class="instructions">The game will draw one card. You have to guess whether the next card is <strong
         class="over-and-under-title">OVER</strong> or <strong class="over-and-under-title">UNDER</strong> than
       the game's card. Good luck!</p>
   </header>
@@ -21,7 +21,9 @@
   <section class="game-container">
 
     <section class="cards-container">
+
       <article class="game-card">
+
         <div class="card-container">
           <span class="question-mark-game-card">?</span>
           <span class="current-game-card showOff"></span>
@@ -29,26 +31,36 @@
       </article>
 
       <article class="user-card">
+
         <div class="card-container">
-          <span class="question-mark-user-card">?</span>
+          <span class="user-mark-user-card">?</span>
+          <span class="current-user-card showOff"></span>
         </div>
       </article>
     </section>
 
-    <section class="feedback-to-user">
-
+    <section class="feedback-to-user showOff">
+      <p class="current-feedback-to-user"></p>
     </section>
 
     <section class="start-button-container">
       <button class="start">START</button>
     </section>
 
+    <section class="rounds-counter">
+      <lord-icon class="points" src="https://cdn.lordicon.com/ivayzoru.json" trigger="loop" delay="5000"
+        colors="outline:#121331,primary:#121331,secondary:#fff" style="width:75px;height:75px">
+      </lord-icon>
+      <span class="rounds">Rounds: </span><span class="rounds-number">0</span>
+    </section>
+
     <section class="buttons-container showOff">
-      <button class="mayor">OVER</button>
-      <button class="minor">UNDER</button>
+      <button class="over-button">OVER</button>
+      <button class="under-button">UNDER</button>
     </section>
   </section>
 
+  <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
   <script src="main.js"></script>
 </body>
 
