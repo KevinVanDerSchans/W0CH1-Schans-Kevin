@@ -98,26 +98,45 @@ article {
   background-color: rgb(77, 134, 199);
 }
 
-.start-button-container {
-    display: flex;
-  position: relative;
-  bottom: 190px;
+.question-mark-game-card,
+.question-mark-user-card {
+  display: flex;
+  width: 100%;
+  font-size: 12rem;
   justify-content: center;
-  padding-top: 25px;
+  align-items: center;
+}
+
+.current-game-card {
+  display: flex;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 700;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+}
+
+.start-button-container {
+  display: flex;
+  position: relative;
+  bottom: 130px;
+  justify-content: center;
+  padding-top: 15px;
   margin-left: 45px;
   align-items: center;
 }
 
 .start {
   display: flex;
-  flex-direction: column;
+  position: absolute;
   justify-content: center;
-  margin-right: 20px;
+  margin-right: 40px;
   font-family: inherit;
   font-size: 2rem;
   padding: 15px 35px;
   color: rgb(224, 214, 214);
-  background-color: rgb(39, 64, 145);
+  background-color: rgb(149, 36, 41);
   border: 3px solid rgb(20, 20, 20);
   box-shadow: 5px 5px 10px rgb(30, 29, 29);
   font-weight: 700;
@@ -125,7 +144,7 @@ article {
 }
 
 .start:hover {
-  background-color: rgb(149, 36, 41);
+  background-color: rgb(39, 64, 145);
 }
 
 .buttons-container {
